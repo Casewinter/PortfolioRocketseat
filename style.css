@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+html {
+
+    margin: 0%;
+    padding: 0;
+    font-family: Merriweather Sans;
+    font-size: 0.8rem;
+  }
+
+body {
+    background-color: #22212C;
+    color:  #837E9F;
+    display: grid;
+    grid-template: "aside main";
+    grid-template-columns: 1.1fr 3fr;
+}
+aside {
+    grid-area: aside;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:  #837E9F;
+}
+p{
+    font-weight: 500;
+}
+#bio {
+    line-height: 15px;
+}
+.svg {
+    width: 20px
+}
+
+.cardsReps {
+    background-color:  #302F3D;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.363);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.repsText{
+    display: flex;
+    gap: 20px;
+}
+.cards {
+    background-color:  #302F3D;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.363);
+    border-radius: 8px;
+    padding: 10px;
+}
+.photoCard{
+    text-align: center;
+    line-height: 10px;
+}
+.photo{
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: rgba(8, 85, 8, 0.801) solid;
+}
+
+.photo > img{
+    width: 200px;
+}
+
+.techs {
+    margin-left:  20px;
+}
+.techtagscontainer{
+    margin-left: 20px;
+    display: grid;
+    grid-template: 'a b c';
+   
+}
+.techtags{
+    background-color: #CB92B1;
+    color: black;
+    border-radius: 5px;
+    width: 90px;
+    height: 20px;
+    font-size: 0.75rem;
+    margin: 3px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.network{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left:  20px;
+}
+
+.network > li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.text {
+    margin-left:  20px;
+}
+
