@@ -24,7 +24,7 @@ const getProfile = () => {
          ]
 
         const verfiyValue = (arrayItem) =>{
-            if(arrayItem === null){
+            if(arrayItem === null || arrayItem === ""){
                    arrayData[arrayData.indexOf(arrayItem)] = "Não cadastrado"
             }
         
